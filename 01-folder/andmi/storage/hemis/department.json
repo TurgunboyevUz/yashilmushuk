@@ -1,0 +1,300 @@
+{
+    "success": true,
+    "error": null,
+    "data": {
+        "items": [
+            {
+                "id": 65,
+                "name": "Kimyo va kimyoviy texnologiyalar kafedrasi",
+                "code": "303-104-16",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 4,
+                "active": true
+            },
+            {
+                "id": 44,
+                "name": "Iqtisodiyot kafedrasi",
+                "code": "303-109-13",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 43,
+                "active": true
+            },
+            {
+                "id": 39,
+                "name": "Innovatsion ta'lim texnologiyalari",
+                "code": "303-106-12",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 6,
+                "active": true
+            },
+            {
+                "id": 32,
+                "name": "O‘zbek tili va adabiyoti kafedrasi",
+                "code": "303-105-15",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 5,
+                "active": true
+            },
+            {
+                "id": 31,
+                "name": "Gumanitar fanlar kafedrasi",
+                "code": "303-109-10",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 43,
+                "active": true
+            },
+            {
+                "id": 29,
+                "name": "Mehnat muhofazasi kafedrasi",
+                "code": "303-103-12",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 3,
+                "active": true
+            },
+            {
+                "id": 28,
+                "name": "Transport logistikasi kafedrasi",
+                "code": "303-103-11",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 3,
+                "active": true
+            },
+            {
+                "id": 27,
+                "name": "Transport vositalari muhandisligi",
+                "code": "303-103-10",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 3,
+                "active": true
+            },
+            {
+                "id": 26,
+                "name": "Axborot texnologiyalari kafedrasi",
+                "code": "303-105-11",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 5,
+                "active": true
+            },
+            {
+                "id": 25,
+                "name": "Mashinasozlik ishlab chiqarishni avtomatlashtirish kafedrasi",
+                "code": "303-105-10",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 5,
+                "active": true
+            },
+            {
+                "id": 24,
+                "name": "Buxgalteriya hisobi va menejment kafedrasi",
+                "code": "303-109-11",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 43,
+                "active": true
+            },
+            {
+                "id": 23,
+                "name": "Texnologik mashinalar va jixozlar kafedrasi",
+                "code": "303-102-13",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 2,
+                "active": true
+            },
+            {
+                "id": 22,
+                "name": "Mashinasozlik texnologiyasi kafedrasi",
+                "code": "303-102-10",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 2,
+                "active": true
+            },
+            {
+                "id": 20,
+                "name": "Muqobil energiya manbaalari",
+                "code": "303-104-11",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 4,
+                "active": true
+            },
+            {
+                "id": 19,
+                "name": "Elektrotexnika, elektromexanika va elektrotexnologiyalar kafedrasi",
+                "code": "303-104-10",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 4,
+                "active": true
+            },
+            {
+                "id": 17,
+                "name": "Umumtexnika fanlari kafedrasi",
+                "code": "303-101-11",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 1,
+                "active": true
+            },
+            {
+                "id": 16,
+                "name": "Materialshunoslik kafedrasi",
+                "code": "303-102-12",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 2,
+                "active": true
+            },
+            {
+                "id": 15,
+                "name": "Metrologiya va standartlashtirish kafedrasi",
+                "code": "303-101-12",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 1,
+                "active": true
+            },
+            {
+                "id": 14,
+                "name": "Avtomobilsozlik va transport kafedrasi",
+                "code": "303-101-10",
+                "structureType": {
+                    "code": "12",
+                    "name": "Kafedra"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": 1,
+                "active": true
+            }
+        ],
+        "pagination": {
+            "totalCount": 19,
+            "pageSize": 20,
+            "pageCount": 1,
+            "page": 1
+        }
+    },
+    "code": 200
+}

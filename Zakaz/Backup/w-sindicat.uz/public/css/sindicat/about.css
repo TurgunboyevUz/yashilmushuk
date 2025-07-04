@@ -1,0 +1,610 @@
+/* header-section */
+
+.header-section {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("/banners/about.png") no-repeat center/cover;
+    margin-top: 20px;
+}
+
+.header-secion-left h1 {
+    width: 80%;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.header-secion-left h1 span {
+    color: #4575F3;
+}
+
+.header-secion-left h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: gray;
+    margin-top: 20px;
+}
+
+.header-secion-left p {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 20px;
+    line-height: 32px;
+}
+
+.header-secion-left button {
+    padding: 20px 40px;
+    background-color: #4575F3;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: 66px;
+    transition: all 0.5s ease;
+}
+
+.header-secion-left button:hover {
+    background-color: #33DD88;
+}
+
+.header-section-right-video {
+    width: 320px;
+    margin: 70px 0px;
+    border-radius: 20px;
+}
+
+
+/* 2-section */
+
+.nasha-komanda {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 48px;
+    overflow: hidden;
+}
+
+.nasha-komanda h1 {
+    font-size: 36px;
+    color: #4575F3;
+    text-align: center;
+    font-weight: 600;
+}
+
+.nasha-komanda p {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.nasha-komanda-slider {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 38px 0px;
+}
+
+.nasha-komanda-slider img {
+    width: 25%;
+    /* 5ta logo bo‘lsa, har biri 20% bo‘lishi kerak */
+    animation: slide 10s linear infinite;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    20% {
+        transform: translateX(-20%);
+    }
+
+    40% {
+        transform: translateX(-40%);
+    }
+
+    60% {
+        transform: translateX(-60%);
+    }
+
+    80% {
+        transform: translateX(-80%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+/* 3-section */
+
+.galler {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 48px 0px;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.galler img {
+    width: 32%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.galler img:hover {
+    transform: scale(1.1);
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 4-section    */
+.oborudovaniye-moshnost {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 48px 0px;
+}
+
+.oborudovaniye-moshnost h1 {
+    font-size: 36px;
+    color: #4575F3;
+    text-align: center;
+    font-weight: 600;
+}
+
+.oborudovaniye-moshnost p {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.oborudovaniye-moshnost-galler {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 38px;
+}
+
+.oborudovaniye-moshnost-galler img {
+    width: 32%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.oborudovaniye-moshnost-galler img:hover {
+    transform: scale(1.1);
+}
+
+/* 5-section acardion*/
+.vapros-otveti{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 48px 0px;
+}
+.vapros-otveti h1{
+    font-size: 36px;
+    color: #4575F3;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+.vapros-otveti-item-header{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F7F7F9;
+    border-radius: 8px;
+    margin-top: 8px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.vapros-otveti-item-header h2{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.vapros-otveti-item-header i{
+    font-size: 24px;
+    color: #4575F3;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.vapros-otveti-item-header:hover {
+    background-color: #4575F3;
+}
+
+.vapros-otveti-item-header:hover h2,
+.vapros-otveti-item-header:hover i {
+    color: white; /* O'zingizga yoqqan rangni tanlang */
+}
+
+.vapros-otveti-item-header.active {
+    background-color: #2C4AB5; /* O'zingizga yoqqan rang */
+}
+
+.vapros-otveti-item-header.active h2,
+.vapros-otveti-item-header.active i {
+    color: white;
+}
+
+
+.vapros-otveti-item-content{
+    width:  100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    display: none;
+}
+.vapros-otveti-item-content p{
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+}
+
+
+
+/* 6-section */
+
+.na-keysi {
+    width: 100%;
+    height: auto;
+    margin: 48px 0px;
+    box-sizing: border-box;
+}
+
+.na-keysi h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4575F3;
+    text-align: center;
+}
+
+.na-keysi-videos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    margin-top: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.na-keysi-videos .youtube-video{
+    width: 22%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1025px) {
+    /*header*/
+    .header-secion-left h1 {
+        font-size: 42px;
+    }
+
+    .header-secion-left h2 {
+        font-size: 28px;
+    }
+
+    .header-secion-left p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .header-secion-left button {
+        font-size: 18px;
+        margin-top: 44px;
+    }
+
+    /* 6-section */
+    .na-keysi-videos {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 14px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .na-keysi-videos .youtube-video {
+        width: 20%;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    /* header-section */
+
+    .header-section-right-video {
+        width: 244px;
+        margin: 0px;
+    }
+
+    .header-secion-left h1 {
+        margin-top: 88px;
+    }
+
+    .header-secion-left button {
+        margin-bottom: 88px;
+    }
+
+    /* 2-section */
+    .nasha-komanda {
+        width: 100%;
+    }
+
+    .nasha-komanda-slider {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .nasha-komanda-slider img {
+        width: 50%;
+    }
+
+    /* 3-section */
+
+    .galler {
+        width: 100%;
+        height: auto;
+    }
+
+    .galler img {
+        width: 48%;
+        height: auto;
+        object-fit: cover;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: transform 0.2s;
+    }
+
+    /* 4-section    */
+
+    .oborudovaniye-moshnost-galler {
+        width: 100%;
+        height: auto;
+    }
+
+    .oborudovaniye-moshnost-galler img {
+        width: 48%;
+        height: auto;
+        object-fit: cover;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: transform 0.2s;
+    }
+
+    .oborudovaniye-moshnost-galler img:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+@media screen and (max-width: 426px) {
+    .default-wrap {
+        width: 100%;
+        /* padding: 20px; */
+    }
+
+    .navbar-top-contact a {
+        display: none;
+    }
+
+    .navbar-top-contact-whatsapp {
+        display: none;
+    }
+
+    /* header-section */
+
+    .header-section {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .header-section-right-video {
+        width: 244px;
+        margin: 0px;
+    }
+
+    .header-secion-left h1 {
+        width: 100%;
+        margin-top: 44px;
+        font-size: 28px;
+    }
+
+    .header-secion-left h2 {
+        font-size: 28px;
+    }
+
+    .header-secion-left p {
+        width: 100%;
+    }
+
+    .header-secion-left button {
+        margin-bottom: 44px;
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+
+    .header-section-right-video {
+        width: 100%;
+        margin-bottom: 44px;
+    }
+
+    /* 2-section */
+    .nasha-komanda {
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    .nasha-komanda h1 {
+        font-size: 26px;
+    }
+
+    .nasha-komanda-slider {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .nasha-komanda-slider img {
+        width: 100%;
+    }
+
+
+    /* 3-section */
+
+    .galler {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+
+    .galler img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: transform 0.2s;
+    }
+
+    /* 4-section    */
+    .oborudovaniye-moshnost {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin: 0px;
+    }
+
+    .oborudovaniye-moshnost h1 {
+        font-size: 26px;
+    }
+
+    .oborudovaniye-moshnost p {
+        font-size: 16px;
+    }
+
+    .oborudovaniye-moshnost-galler {
+        margin-top: 28px;
+    }
+
+    .oborudovaniye-moshnost-galler img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: transform 0.2s;
+    }
+
+    .oborudovaniye-moshnost-galler img:hover {
+        transform: scale(1.1);
+    }
+
+    /* 6-section */
+    .na-keysi {
+        margin: 24px 0px;
+    }
+
+    .na-keysi h1 {
+        font-size: 26px;
+    }
+
+    .na-keysi-videos {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .na-keysi-videos .youtube-video {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .container {
+        padding: 24px 20px;
+    }
+
+    .hidden {
+        display: none;
+    }
+}

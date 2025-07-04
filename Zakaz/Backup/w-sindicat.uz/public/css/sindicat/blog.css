@@ -1,0 +1,59 @@
+.cards{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.cards-item{
+    width: 32%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Soya */
+    background-color: white;
+    overflow: hidden;
+}
+
+.cards-item a{
+    text-decoration: none;
+}
+
+.cards-item img{
+    width: 100%;
+}
+
+.cards-item h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 10px 20px;
+}
+
+.cards-item button{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #4575F3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0px 0px 8px 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 426px) {
+    .cards{
+        flex-direction: column;
+        gap: 22px;
+    }
+    .cards-item{
+        width: 100%;
+    }
+}

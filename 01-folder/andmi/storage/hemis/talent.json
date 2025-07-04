@@ -1,0 +1,153 @@
+{
+    "success": true,
+    "error": null,
+    "data": {
+      "items": [
+        {
+          "id": 785,
+          "meta_id": 1089,
+          "full_name": "SOXIBOVA ZARNIGORXON MUTALIBJON QIZI",
+          "short_name": "SOXIBOVA Z. M.",
+          "first_name": "ZARNIGORXON",
+          "second_name": "SOXIBOVA",
+          "third_name": "MUTALIBJON QIZI",
+          "employee_id_number": "3032212012",
+          "gender": {
+            "code": "12",
+            "name": "Ayol"
+          },
+          "birth_date": 660182400,
+          "image": "https://hemis.andmiedu.uz/static/crop/4/0/320__90_4011287075.jpg",
+          "year_of_enter": 2022,
+          "specialty": "",
+          "academicDegree": {
+            "code": "10",
+            "name": "Darajasiz"
+          },
+          "academicRank": {
+            "code": "10",
+            "name": "Unvonsiz"
+          },
+          "tutorGroups": [],
+          "department": {
+            "id": 52,
+            "name": "Iqtidorli talabalarning ilmiy-tadqiqot faoliyatini tashkil etish",
+            "code": "303-219",
+            "structureType": {
+              "code": "13",
+              "name": "Bo‘lim"
+            },
+            "localityType": {
+              "code": "11",
+              "name": "Mahalliy"
+            },
+            "parent": null,
+            "active": true
+          },
+          "employmentForm": {
+            "code": "11",
+            "name": "Asosiy ish joy"
+          },
+          "employmentStaff": {
+            "code": "11",
+            "name": "1,00 stavka"
+          },
+          "staffPosition": {
+            "code": "17",
+            "name": "Bo‘lim boshlig‘i"
+          },
+          "employeeStatus": {
+            "code": "11",
+            "name": "Ishlamoqda"
+          },
+          "employeeType": {
+            "code": "10",
+            "name": "Boshqa"
+          },
+          "contract_number": "1",
+          "decree_number": "1",
+          "contract_date": 1673222400,
+          "decree_date": 1673222400,
+          "created_at": 1673255773,
+          "updated_at": 1673255773,
+          "hash": "db671b959a52acbe079ef4bb592bbd65c29de270553b26117b7cb81f4906cd6a"
+        },
+        {
+          "id": 785,
+          "meta_id": 768,
+          "full_name": "SOXIBOVA ZARNIGORXON MUTALIBJON QIZI",
+          "short_name": "SOXIBOVA Z. M.",
+          "first_name": "ZARNIGORXON",
+          "second_name": "SOXIBOVA",
+          "third_name": "MUTALIBJON QIZI",
+          "employee_id_number": "3032212012",
+          "gender": {
+            "code": "12",
+            "name": "Ayol"
+          },
+          "birth_date": 660182400,
+          "image": "https://hemis.andmiedu.uz/static/crop/4/0/320__90_4011287075.jpg",
+          "year_of_enter": 2022,
+          "specialty": "",
+          "academicDegree": {
+            "code": "10",
+            "name": "Darajasiz"
+          },
+          "academicRank": {
+            "code": "10",
+            "name": "Unvonsiz"
+          },
+          "tutorGroups": [],
+          "department": {
+            "id": 20,
+            "name": "Muqobil energiya manbaalari",
+            "code": "303-104-11",
+            "structureType": {
+              "code": "12",
+              "name": "Kafedra"
+            },
+            "localityType": {
+              "code": "11",
+              "name": "Mahalliy"
+            },
+            "parent": 4,
+            "active": true
+          },
+          "employmentForm": {
+            "code": "12",
+            "name": "O‘rindoshlik (ichki-qo'shimcha)"
+          },
+          "employmentStaff": {
+            "code": "14",
+            "name": "0,25 stavka"
+          },
+          "staffPosition": {
+            "code": "13",
+            "name": "Katta o‘qituvchi"
+          },
+          "employeeStatus": {
+            "code": "11",
+            "name": "Ishlamoqda"
+          },
+          "employeeType": {
+            "code": "12",
+            "name": "Professor-o‘qituvchi xodim"
+          },
+          "contract_number": "514",
+          "decree_number": "702-k",
+          "contract_date": 1727049600,
+          "decree_date": 1727049600,
+          "created_at": 1663153688,
+          "updated_at": 1727414359,
+          "hash": "db671b959a52acbe079ef4bb592bbd65c29de270553b26117b7cb81f4906cd6a"
+        }
+      ],
+      "pagination": {
+        "totalCount": 2,
+        "pageSize": 20,
+        "pageCount": 1,
+        "page": 1
+      }
+    },
+    "code": 200
+  }

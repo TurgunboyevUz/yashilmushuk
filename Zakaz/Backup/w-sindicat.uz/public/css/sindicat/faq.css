@@ -1,0 +1,129 @@
+/* header-section */
+
+.catalog-header{
+    width: 100%;
+    height: auto;
+    background: url("/banners/faq.png") no-repeat center/cover;
+    box-sizing: border-box;
+}
+
+.catalog-header h1 {
+    font-size: 36px;
+    color: black;
+    font-weight: 600;
+    margin-top: 68px;
+    text-align: center;
+}
+
+.catalog-header h1 span{
+    color: #4575F3;
+}
+.catalog-header h2{
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 68px;
+}
+/* 5-section acardion*/
+.vapros-otveti{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 48px 0px;
+}
+.vapros-otveti h1{
+    font-size: 36px;
+    color: #4575F3;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+.vapros-otveti-item-header{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F7F7F9;
+    border-radius: 8px;
+    margin-top: 8px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.vapros-otveti-item-header h2{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.vapros-otveti-item-header i{
+    font-size: 24px;
+    color: #4575F3;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.vapros-otveti-item-header:hover {
+    background-color: #4575F3;
+}
+
+.vapros-otveti-item-header:hover h2,
+.vapros-otveti-item-header:hover i {
+    color: white; /* O'zingizga yoqqan rangni tanlang */
+}
+
+.vapros-otveti-item-header.active {
+    background-color: #2C4AB5; /* O'zingizga yoqqan rang */
+}
+
+.vapros-otveti-item-header.active h2,
+.vapros-otveti-item-header.active i {
+    color: white;
+}
+
+
+.vapros-otveti-item-content{
+    width:  100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    display: none;
+}
+.vapros-otveti-item-content p{
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 426px) {
+    .vapros-otveti{
+        width: 100%;
+        height: auto;
+        margin: 28px;
+    }
+    .vapros-otveti h1{
+        font-size: 26px;
+        margin-top: 28px;
+
+    }
+
+    /* catalog header */
+    .catalog-header h1 {
+        font-size: 26px;
+        margin-top: 48px;
+    }
+    .catalog-header h2 {
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
+
+    .container {
+        padding: 24px 20px;
+    }
+}

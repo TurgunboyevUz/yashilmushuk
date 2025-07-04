@@ -1,0 +1,120 @@
+{
+    "success": true,
+    "error": null,
+    "data": {
+        "items": [
+            {
+                "id": 43,
+                "name": "Iqtisodiyot fakulteti",
+                "code": "303-109",
+                "structureType": {
+                    "code": "11",
+                    "name": "Fakultet"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": null,
+                "active": true
+            },
+            {
+                "id": 6,
+                "name": "Innovatsion ta'lim texnologiyalari fakulteti",
+                "code": "303-106",
+                "structureType": {
+                    "code": "11",
+                    "name": "Fakultet"
+                },
+                "localityType": {
+                    "code": "12",
+                    "name": "Qo‘shma"
+                },
+                "parent": null,
+                "active": true
+            },
+            {
+                "id": 5,
+                "name": "Intellektual boshqaruv va kompyuter tizimlari fakulteti",
+                "code": "303-105",
+                "structureType": {
+                    "code": "11",
+                    "name": "Fakultet"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": null,
+                "active": true
+            },
+            {
+                "id": 4,
+                "name": "Elektrotexnika fakulteti",
+                "code": "303-104",
+                "structureType": {
+                    "code": "11",
+                    "name": "Fakultet"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": null,
+                "active": true
+            },
+            {
+                "id": 3,
+                "name": "Avtomobilsozlik va transport fakulteti.",
+                "code": "303-103",
+                "structureType": {
+                    "code": "11",
+                    "name": "Fakultet"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": null,
+                "active": true
+            },
+            {
+                "id": 2,
+                "name": "Mashinasozlik texnologiyasi fakulteti",
+                "code": "303-102",
+                "structureType": {
+                    "code": "11",
+                    "name": "Fakultet"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": null,
+                "active": true
+            },
+            {
+                "id": 1,
+                "name": "Avtomobilsozlik va transport fakulteti",
+                "code": "303-101",
+                "structureType": {
+                    "code": "11",
+                    "name": "Fakultet"
+                },
+                "localityType": {
+                    "code": "11",
+                    "name": "Mahalliy"
+                },
+                "parent": null,
+                "active": true
+            }
+        ],
+        "pagination": {
+            "totalCount": 9,
+            "pageSize": 20,
+            "pageCount": 1,
+            "page": 1
+        }
+    },
+    "code": 200
+}

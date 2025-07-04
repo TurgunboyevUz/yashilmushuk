@@ -1,0 +1,27 @@
+.content-render img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+.content-render table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.content-render table, .content-render th, .content-render td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.content-render blockquote {
+    padding: 1em;
+    margin: 0 0 1em;
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+}
+
+.content-render figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #6c757d;
+    margin-top: 5px;
+}

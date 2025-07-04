@@ -1,0 +1,899 @@
+.header-section {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("/banners/main1.png") no-repeat center/cover;
+    margin-top: 20px;
+}
+
+.header-secion-left h1 {
+    width: 80%;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.header-secion-left h1 span {
+    color: #4575F3;
+}
+
+.header-secion-left h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: gray;
+    margin-top: 20px;
+}
+
+.header-secion-left p {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 20px;
+    line-height: 32px;
+}
+
+.header-secion-left button {
+    padding: 20px 40px;
+    background-color: #4575F3;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: 66px;
+    transition: all 0.5s ease;
+}
+
+.header-secion-left button:hover {
+    background-color: #33DD88;
+}
+
+.header-section-right-video {
+    width: 320px;
+    margin: 70px 0px;
+    border-radius: 20px;
+}
+
+/* 2-section */
+.nashi-uslugi {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.nashi-uslugi h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 58px;
+    text-align: center;
+}
+
+.nashi-uslugi-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 44px;
+    margin-bottom: 58px;
+}
+
+.nashi-uslugi-card-item {
+    width: 33%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 24px 38px;
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+}
+
+
+.nashi-uslugi-card-item i {
+    font-size: 64px;
+    color: #4575F3;
+    transition: all 0.5s ease;
+}
+
+.nashi-uslugi-card-item h2 {
+    font-size: 22px;
+    transition: all 0.5s ease;
+}
+
+.nashi-uslugi-card-item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    transition: all 0.5s ease;
+}
+
+.nashi-uslugi-card-item:hover {
+    background-color: #4575F3;
+    color: white;
+    cursor: pointer;
+}
+.nashi-uslugi-card-item:hover h2,
+.nashi-uslugi-card-item:hover p,
+.nashi-uslugi-card-item:hover i {
+    color: white;
+}
+
+
+/* 3-section */
+
+.nashi-preimushestva {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.nashi-preimushestva h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 48px;
+}
+
+.nashi-preimushestva-card {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.nashi-preimushestva-card-item {
+    width: 30%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 36px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    gap: 20px;
+    transition: all 0.5s ease; 
+    cursor: pointer; 
+}
+
+.nashi-preimushestva-card-item img {
+    width: 46px;
+}
+
+.nashi-preimushestva-card-item h2 {
+    font-size: 24px;
+}
+
+.nashi-preimushestva-card-item p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nashi-preimushestva-card-item:hover {
+    border-left: 3px solid #4575F3;
+}
+.nashi-preimushestva-card-item:hover h2{
+    color: #4575F3;
+}
+
+/* 4-section */
+
+.about-us {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background: url("/banners/main2.png") no-repeat center/cover;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.about-us-video video {
+    width: 320px;
+    margin: 48px 0px;
+    border-radius: 20px;
+}
+
+.about-us-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.about-us-right h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.about-us-right p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.about-us-right-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.about-us-right-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.about-us-right-list-item img {
+    width: 26px;
+}
+
+.about-us-right button {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 32px;
+    background-color: #4575F3;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.about-us-right button:hover {
+    background-color: #33DD88;
+}
+
+/* 5-section */
+
+
+.shtomishem {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 48px 0px;
+}
+
+.shtomishem h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #4575F3;
+}
+
+.shtomishem-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.shtomishem-card img {
+    width: 348px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+/* 6-section */
+
+.chto-mi-predlagaem {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 48px 0px;
+}
+
+.chto-mi-predlagaem h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4575F3;
+    text-align: center;
+}
+
+.chto-mi-predlagaem-cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.chto-mi-predlagaem-cards-item {
+    width: 31%;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: gray;
+    padding: 38px;
+    display: flex;
+    align-items: end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.chto-mi-predlagaem-cards-item-detalies h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.chto-mi-predlagaem-cards-item-detalies a {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-top: 14px;
+    transition: all 0.5s ease;
+}
+
+.chto-mi-predlagaem-cards-item-detalies a:hover {
+    color: #4575F3;
+}
+
+
+/* 7-section */
+
+.etap-rabot {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 48px 0px;
+}
+
+.etap-rabot h1 {
+    font-size: 36px;
+    color: #4575F3;
+    font-weight: 600;
+    text-align: center;
+}
+
+.etap-rabot-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.etap-rabot-cards-item {
+    width: 22%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 18px;
+    background-color: red;
+    background-color: white;
+    border: 2px solid #4575F3;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+
+
+.etap-rabot-cards-item span {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.etap-rabot-cards-item p {
+    font-size: 14px;
+    margin-top: 14px;
+    transition: all 0.5s ease;
+}
+
+.etap-rabot-cards-item:hover {
+    background-color: #4575F3;
+}
+
+.etap-rabot-cards-item:hover p,
+.etap-rabot-cards-item:hover span {
+    color: white;
+}
+
+
+/* 8-section slider */
+.besplatniy-bonus {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 48px 0px;
+}
+
+.besplatniy-bonus h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #4575F3;
+    font-weight: 600;
+}
+
+.besplatniy-bonus h2 {
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    gap: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    flex: 0 0 calc(100% / 3 - 10px);
+    background: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.slider-container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #4575F3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+
+/* 9-seciton */
+
+.na-keysi {
+    width: 100%;
+    height: auto;
+    margin: 48px 0px;
+    box-sizing: border-box;
+}
+
+.na-keysi h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4575F3;
+    text-align: center;
+}
+
+.na-keysi-videos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    margin-top: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.na-keysi-videos .youtube-video{
+    width: 22%;
+    border-radius: 8px;
+}
+
+/* responsive */
+@media screen and (max-width: 1025px) {
+    /*header*/
+    .header-secion-left h1 {
+        font-size: 42px;
+    }
+
+    .header-secion-left h2 {
+        font-size: 28px;
+    }
+
+    .header-secion-left p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .header-secion-left button {
+        font-size: 18px;
+        margin-top: 44px;
+    }
+
+
+    /* 9-seciton */
+
+    .na-keysi-videos {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 14px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .na-keysi-videos .youtube-video {
+        width: 20%;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .default-wrap {
+        width: 100%;
+        /* padding: 20px; */
+    }
+
+    /* header-section */
+
+    .header-section-right-video {
+        width: 244px;
+        margin: 0px;
+    }
+
+    .header-secion-left h1 {
+        margin-top: 88px;
+    }
+
+    .header-secion-left button {
+        margin-bottom: 88px;
+    }
+
+    /* 2-section */
+
+    .nashi-uslugi-card {
+        flex-wrap: wrap;
+    }
+
+    .nashi-uslugi-card-item {
+        width: 45%;
+    }
+
+    /* 3-section */
+
+    .nashi-preimushestva-card-item {
+        width: 45%;
+    }
+
+    /* 4-section about us */
+
+    .about-us {
+        gap: 30px;
+    }
+
+    .about-us-video video {
+        width: 244px;
+    }
+
+
+    /* 6-section */
+
+    .chto-mi-predlagaem-cards-item {
+        width: 47%;
+        height: 288px;
+    }
+
+    /* 7-section */
+
+    .etap-rabot {
+        margin: 24px 0px;
+    }
+
+    .etap-rabot-cards {
+        flex-wrap: wrap;
+    }
+
+    .etap-rabot-cards-item {
+        width: 45%;
+    }
+
+    /* 8-section */
+
+    .card {
+        flex: 0 0 calc(100% / 2 - 10px);
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .default-wrap {
+        width: 100%;
+        /* padding: 20px; */
+    }
+
+    .navbar-top-contact a {
+        display: none;
+    }
+
+    .navbar-top-contact-whatsapp {
+        display: none;
+    }
+
+    /* header-section */
+
+    .header-section {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .header-section-right-video {
+        width: 244px;
+        margin: 0px;
+    }
+
+    .header-secion-left h1 {
+        width: 100%;
+        margin-top: 44px;
+        font-size: 28px;
+    }
+
+    .header-secion-left h2 {
+        font-size: 28px;
+    }
+
+    .header-secion-left p {
+        width: 100%;
+    }
+
+    .header-secion-left button {
+        margin-bottom: 44px;
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+
+    .header-section-right-video {
+        width: 100%;
+        margin-bottom: 44px;
+    }
+
+    /* 2-section */
+    .nashi-uslugi h1 {
+        font-size: 26px;
+        margin-top: 24px;
+    }
+
+    .nashi-uslugi-card {
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+    }
+
+    .nashi-uslugi-card-item {
+        width: 100%;
+    }
+
+    /* 3-section */
+
+    .nashi-preimushestva h1 {
+        font-size: 26px;
+        margin-top: 24px;
+    }
+
+    .nashi-preimushestva-card {
+        margin-bottom: 24px;
+
+
+
+    }
+
+    .nashi-preimushestva-card-item {
+        width: 100%;
+
+    }
+
+    /* 4-section */
+
+
+    .about-us {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-us-video video {
+        width: 100%;
+    }
+
+    .about-us-right {
+        width: 100%;
+    }
+
+
+    /* 5-section */
+    .shtomishem {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin: 24px 0px;
+    }
+
+    .shtomishem h1 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 600;
+        color: #4575F3;
+    }
+
+    .shtomishem-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .shtomishem-card img {
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 30px;
+    }
+
+    /* 6-section */
+
+    .chto-mi-predlagaem {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin: 24px 0px;
+    }
+
+    .chto-mi-predlagaem h1 {
+        font-size: 26px;
+        font-weight: 600;
+        color: #4575F3;
+        text-align: center;
+    }
+
+    .chto-mi-predlagaem-cards-item {
+        width: 100%;
+        height: 288px;
+    }
+
+    .chto-mi-predlagaem-cards-item-detalies h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+    }
+
+    /* 7-section */
+    .etap-rabot {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .etap-rabot h1 {
+        font-size: 26px;
+    }
+
+    .etap-rabot-cards {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .etap-rabot-cards-item {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .etap-rabot-cards-item span {
+        font-size: 18px;
+    }
+
+    .etap-rabot-cards-item p {
+        margin-top: 4px;
+    }
+
+    /* 8-section */
+
+    .besplatniy-bonus {
+        margin: 24px 0px;
+    }
+
+    .besplatniy-bonus h1 {
+        font-size: 26px;
+    }
+
+    .besplatniy-bonus h2 {
+        font-size: 18px;
+    }
+
+    .card {
+        flex: 0 0 100%;
+    }
+
+    /* 9-section */
+
+    .na-keysi {
+        margin: 24px 0px;
+    }
+
+    .na-keysi h1 {
+        font-size: 26px;
+    }
+
+    .na-keysi-videos {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .na-keysi-videos .youtube-video {
+        width: 100%;
+        border-radius: 8px;
+    }
+}

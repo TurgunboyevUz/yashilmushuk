@@ -1,0 +1,440 @@
+/* catalog header */
+.catalog-header{
+    width: 100%;
+    height: auto;
+    background: url("/banners/catalog.png") no-repeat center/cover;
+    box-sizing: border-box;
+}
+.catalog-header h1 {
+    font-size: 36px;
+    color: black;
+    font-weight: 600;
+    margin-top: 68px;
+    text-align: center;
+}
+
+.catalog-header h1 span{
+    color: #4575F3;
+}
+.catalog-header h2{
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 68px;
+}
+
+.catalog-catalog{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: 28px;
+}
+.catalog-catalog-list{
+    width: 14%;
+    height: auto;
+}
+.catalog-catalog-list h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+}
+.catalog-catalog-list ul {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 18px 0px;
+}
+.catalog-catalog-list ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px;
+    border-bottom: 1px solid #E5E5E5;
+    transition: all 0.5s ease;
+}
+.catalog-catalog-list ul li a{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+.catalog-catalog-list ul li i{
+    font-size: 16px;
+    margin-right: 8px;
+    color: #E93469;
+}
+
+.catalog-catalog-list ul li:hover{
+    margin-left: 14px;
+}
+.catalog-catalog-card{
+    width: 86%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 28px;
+    box-sizing: border-box;
+}
+
+.catalog-catalog-card img{
+    width: 328px;
+    border-radius: 8px;
+}
+
+.catalog-menu{
+    display: none;
+}
+
+.catalog-catalog-card-item{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Soya */
+    overflow: hidden;
+    border-radius: 8px;
+}
+.catalog-catalog-card-item img{
+    width: 100%;
+    height: auto;
+}
+.catalog-catalog-card-item p{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    margin-top: 8px;
+    text-align: center;
+}
+.catalog-catalog-card-item h1{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: center;
+}
+.catalog-catalog-card-item button{
+    padding: 14px 28px;
+    font-size: 16px;
+    color: white;
+    background-color: #4575F3;
+    border: none;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 28px;
+}
+
+/* Catalog Item */
+.catalog-catalog-card-item {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Catalog Image Slider */
+.slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: none;
+}
+
+.slider img.active {
+    display: block;
+}
+
+/* Dots for Card Item */
+.dots {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #999;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dots span.active {
+    background: #333;
+    transform: scale(1.2);
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.modal-slider {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.modal-img-slide {
+    width: 90% !important;
+    height: 90% !important;
+    max-width: 90vw !important;
+    max-height: 90vh !important;
+    object-fit: contain;
+    display: none;
+}
+
+/* Faol rasmni ko‘rsatish */
+.modal-img-slide.active {
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+    color: black;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+#modal-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: white;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 30px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    background: none;
+    border: none;
+    z-index: inherit;
+}
+
+.close-btn:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .catalog-catalog-card-item {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .catalog-wrap{
+        position: relative;
+    }
+
+    .navbar-top-contact a {
+        display: none;
+    }
+
+    .navbar-top-contact-whatsapp {
+        display: none;
+    }
+
+
+
+    /* catalog header */
+    .catalog-header h1 {
+        font-size: 26px;
+        margin-top: 48px;
+    }
+    .catalog-header h2 {
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
+
+    /*catalog list*/
+    .catalog-menu{
+        width: 100%;
+        display: block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 8px;
+    }
+    .catalog-menu h1{
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+    }
+    .catalog-menu i{
+        font-size: 24px;
+        color: black;
+    }
+    .catalog-catalog{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .catalog-catalog-list{
+        display: none;
+    }
+    .catalog-catalog-card{
+        width: 100%;
+        gap: 28px;
+        flex-direction: column;
+    }
+    .catalog-catalog-card img{
+        width: 80%;
+    }
+
+    .catalog-catalog-card-item{
+        width: 100%;
+    }
+    .catalog-catalog-card-item img{
+        width: 100%;
+    }
+    .catalog-list-modal{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        z-index:100;
+        background-color: white;
+        top: 0;
+        overflow-y: auto;
+        box-sizing: border-box;
+        padding: 22px;
+    }
+    .catalog-list-modal .fa-solid{
+        font-size: 24px;
+        color: black;
+        cursor: pointer;
+        display: block;
+        text-align: right;
+    }
+    
+    .catalog-list-modal-list{
+        /* width: 00%; */
+        height: auto;
+    }
+    .catalog-list-modal-list h1{
+        font-size: 28px;
+        font-weight: 600;
+        color: black;
+    }
+    .catalog-list-modal-list ul {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 18px 0px;
+    }
+    .catalog-list-modal-list ul li {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding: 8px 0px;
+        border-bottom: 1px solid #E5E5E5;
+        transition: all 0.5s ease;
+    }
+    .catalog-list-modal-list ul li a{
+        font-size: 16px;
+        color: black;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .catalog-list-modal-list ul li i{
+        font-size: 16px;
+        margin-right: 8px;
+        color: #E93469;
+    }
+    
+    .catalog-list-modal-list ul li:hover{
+        margin-left: 14px;
+    }
+}

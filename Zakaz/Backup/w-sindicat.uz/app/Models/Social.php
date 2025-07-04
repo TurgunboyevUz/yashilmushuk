@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Social extends Model
+{
+    protected $table = 'socials';
+
+    protected $fillable = [
+        'name',
+        'key',
+        'value',
+        'icon',
+        'color',
+        'status',
+    ];
+}

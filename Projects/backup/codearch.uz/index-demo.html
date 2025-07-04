@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diyorbek Turg'unboyev - Backend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #34495e; /* Dark Blue-Gray */
+            --secondary-color: #2c3e50; /* Even darker for titles */
+            --accent-color: #3498db; /* Bright Blue */
+            --text-color: #333;
+            --light-text-color: #ecf0f1;
+            --background-light: #f8f9fa;
+            --background-dark: #2f3640;
+            --border-color: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: var(--background-light);
+            line-height: 1.6;
+            color: var(--text-color);
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1000px; /* Slightly narrower for a more refined look */
+            background-color: #fff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden; /* Ensures border-radius applies to children */
+            margin: 30px 20px;
+        }
+
+        .left-column {
+            width: 35%;
+            background-color: var(--primary-color);
+            color: var(--light-text-color);
+            padding: 40px 30px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .right-column {
+            width: 65%;
+            padding: 40px;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.8em;
+            color: var(--secondary-color);
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.6em;
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+
+        h2 i {
+            color: var(--accent-color);
+            font-size: 1.1em;
+        }
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2em;
+            color: var(--secondary-color);
+            margin-bottom: 5px;
+        }
+
+        .profile-title {
+            font-size: 1.1em;
+            color: var(--accent-color);
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .section-title {
+            color: var(--light-text-color);
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 10px;
+        }
+
+        .section-title i {
+            font-size: 1.1em;
+            color: var(--accent-color); /* Icons in dark column slightly brighter */
+        }
+
+        .about-me p {
+            font-size: 0.95em;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+
+        .contact-info div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 0.95em;
+        }
+
+        .contact-info i {
+            margin-right: 12px;
+            font-size: 1.05em;
+            color: var(--accent-color);
+        }
+
+        .skills ul, .language ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li, .language li {
+            margin-bottom: 10px;
+            font-size: 0.95em;
+            display: flex;
+            align-items: center;
+        }
+
+        .skills li::before {
+            content: "\f00c"; /* Checkmark icon */
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            margin-right: 10px;
+            color: var(--accent-color);
+            font-size: 0.8em;
+        }
+         .language li::before {
+            content: "\f058"; /* Check-circle icon */
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            margin-right: 10px;
+            color: var(--accent-color);
+            font-size: 0.8em;
+        }
+
+        .education-item, .experience-item {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+        .education-item:last-child, .experience-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .education-item h3, .experience-item h3 {
+            margin-bottom: 5px;
+            color: var(--accent-color);
+            font-size: 1.15em;
+        }
+
+        .education-item p, .experience-item p {
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+            color: #555;
+        }
+        .education-item p:last-of-type, .experience-item p:last-of-type {
+            font-weight: 500;
+            color: var(--secondary-color);
+        }
+
+        .experience-item ul {
+            list-style: none; /* Remove default bullet */
+            padding: 0;
+            margin-left: 0;
+        }
+
+        .experience-item li {
+            position: relative;
+            margin-bottom: 8px;
+            padding-left: 20px; /* Space for custom bullet */
+            font-size: 0.95em;
+        }
+
+        .experience-item li::before {
+            content: "\2022"; /* Custom bullet point */
+            color: var(--accent-color);
+            font-size: 1.2em;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin: 20px;
+            }
+            .left-column, .right-column {
+                width: 100%;
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 2.2em;
+            }
+            h2 {
+                font-size: 1.4em;
+            }
+            .section-title {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <div class="about-me">
+                <h2 class="section-title"><i class="fas fa-user-alt"></i> About Me</h2>
+                <p>A programmer who enjoys technology. Enthusiast, perfectionist.</p>
+                <p>Proficient in PHP and Laravel development, with expertise in API integration, particularly with the Telegram Bot API, to deliver dynamic and interactive user experiences.</p>
+            </div>
+
+            <div class="contact-info">
+                <h2 class="section-title"><i class="fas fa-address-card"></i> Contact</h2>
+                <div><i class="fas fa-phone-alt"></i> +998 90 783 35 66</div>
+                <div><i class="fas fa-envelope"></i> turgunboyev504@gmail.com</div>
+                <div><i class="fas fa-map-marker-alt"></i> Fergana, Uzbekistan</div>
+            </div>
+
+            <div class="skills">
+                <h2 class="section-title"><i class="fas fa-cogs"></i> Skills</h2>
+                <ul>
+                    <li>PHP 7.x | 8.x</li>
+                    <li>Laravel</li>
+                    <li>MySQL</li>
+                    <li>Telegram Bot API</li>
+                    <li>RestAPI</li>
+                    <li>Linux</li>
+                    <li>Git</li>
+                    <li>Composer</li>
+                    <li>Filament</li>
+                </ul>
+            </div>
+
+            <div class="language">
+                <h2 class="section-title"><i class="fas fa-language"></i> Language</h2>
+                <ul>
+                    <li>Uzbek (Native)</li>
+                    <li>Russian (Fluent)</li>
+                    <li>English</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <h1>DIYORBEK TURG'UNBOYEV</h1>
+            <p class="profile-title">Backend Developer & Laravel Specialist</p>
+
+            <div class="education">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="education-item">
+                    <h3>FERGANA MEDICAL INSTITUTE OF PUBLIC HEALTH</h3>
+                    <p>Bachelor Degree 2/6 (Faculty - General Medicine)</p>
+                    <p>Since 2024</p>
+                </div>
+            </div>
+
+            <div class="professional-experience">
+                <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+                <div class="experience-item">
+                    <h3>BACKEND DEVELOPER (FREELANCE)</h3>
+                    <p>Freelance</p>
+                    <p>Since 2022</p>
+                    <ul>
+                        <li>Developed and maintained <a href="https://bmi.astiedu.uz" target="_blank" style="color: var(--accent-color); text-decoration: none;">bmi.astiedu.uz</a>, a BMI scoring platform tailored for ASTI Uzbekistan.</li>
+                        <li>Built and optimized <a href="https://sindicat.uz" target="_blank" style="color: var(--accent-color); text-decoration: none;">sindicat.uz</a>, a comprehensive clothes selling platform utilizing Laravel/Filament for efficient management.</li>
+                        <li>Engineered PROF-MILK, a sophisticated Telegram Bot for milk product sales, integrating Laravel and Nutgram for a seamless user experience.</li>
+                        <li>Created "Mock Exam AI," an advanced mock testing system with integrated AI functionalities to enhance learning and evaluation.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

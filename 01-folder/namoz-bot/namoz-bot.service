@@ -1,0 +1,16 @@
+[Unit]
+Description=NamozBot Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/php /root/namoz/artisan nutgram:run
+WorkingDirectory=/root/namoz
+Restart=always
+User=root
+Group=root
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=nutgram-bot
+
+[Install]
+WantedBy=multi-user.target

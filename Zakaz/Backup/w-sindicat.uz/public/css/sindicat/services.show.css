@@ -1,0 +1,246 @@
+.blogsinglepage-header{
+    width:  100%;
+    height: auto;
+    box-sizing: border-box;
+    background: url("/banners/services.png") no-repeat center/cover;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.blogsinglepage-header h1{
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 48px;
+}
+.blogsinglepage-header h2{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 48px;
+}
+.blogsinglepage-content{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.blogsinglepage-content p{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.blogsinglepage-content button{
+    background-color: #4575F3;
+    padding: 12PX;
+    color: white;
+    font-size: 18PX;
+    border: none;
+    border-radius: 8px;
+}
+
+.blogsinglepage-content{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 14px;
+}
+.blogsinglepage-content h1{
+    font-size: 36px;
+    color: #8c7001;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+.blogsinglepage-content h2{
+    font-size: 26px;
+    color: #8c7001;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+.blogsinglepage-content p{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px 160px;
+}
+.blogsinglepage-content button{
+    background-color: #8c7001;
+    padding: 12PX;
+    color: white;
+    font-size: 18PX;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto; /* Gorizontal markazlash */
+}
+.blogsinglepage-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.blogsinglepage-contact{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin: 24px 0px;
+}
+.blogsinglepage-contact h2{
+    font-size: 26px;
+    color: black;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+.blogsinglepage-contact a{
+    background-color: #8c7001;
+    padding: 12PX;
+    color: white;
+    font-size: 18PX;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto; /* Gorizontal markazlash */
+}
+.blogsinglepage-contact a i{
+    font-size: 18px;
+    color: white;
+    margin-right: 8px;
+}
+/* 6-section */
+
+.chto-mi-predlagaem {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 48px 0px;
+}
+
+
+.chto-mi-predlagaem-cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.chto-mi-predlagaem-cards-item {
+    width: 31%;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: gray;
+    padding: 38px;
+    display: flex;
+    align-items: end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.chto-mi-predlagaem-cards-item-detalies h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.chto-mi-predlagaem-cards-item-detalies a {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-top: 14px;
+    transition: all 0.5s ease;
+}
+
+.chto-mi-predlagaem-cards-item-detalies a:hover {
+    color: #4575F3;
+}
+
+@media screen and (max-width: 769px) {
+    .chto-mi-predlagaem-cards-item {
+        width: 47%;
+        height: 288px;
+    }
+
+    .blogsinglepage-content p{
+        font-size: 16px;
+        color: black;
+        font-weight: 400;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+
+@media screen and (max-width: 426px) {
+
+    .blogsinglepage-header h1 {
+        font-size: 26px;
+    }
+    .blogsinglepage-header h2 {
+        font-size: 16px;
+    }
+
+    /* 6-section */
+
+    .chto-mi-predlagaem {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin: 24px 0px;
+    }
+
+    .chto-mi-predlagaem h1 {
+        font-size: 26px;
+        font-weight: 600;
+        color: #4575F3;
+        text-align: center;
+    }
+
+    .chto-mi-predlagaem-cards-item {
+        width: 100%;
+        height: 288px;
+    }
+
+    .chto-mi-predlagaem-cards-item-detalies h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .blogsinglepage-content p{
+        font-size: 16px;
+        color: black;
+        font-weight: 400;
+        margin: 0px;
+        padding: 0px;
+    }
+}

@@ -1,0 +1,114 @@
+/* header-section */
+
+.catalog-header {
+    width: 100%;
+    height: auto;
+    background: url("/assets/catalog-header.png") no-repeat center/cover;
+    box-sizing: border-box;
+}
+
+.catalog-header h1 {
+    font-size: 36px;
+    color: black;
+    font-weight: 600;
+    margin: 68px 0px;
+    text-align: center;
+}
+
+.contact-section{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    justify-content: space-between;
+}
+.contact-section-detalies{
+    width: 48%;
+}
+.contact-section-detalies h1{
+    font-size: 26px;
+    font-weight: 400;
+    color: black;
+}
+.contact-section-detalies p{
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    margin: 14px 0px;
+}
+.contact-section-detalies a{
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+}
+
+.contact-section-detalies-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 24px;
+    margin-bottom: 58px;
+}
+
+.contact-section-detalies-social a i {
+    font-size: 24px;
+    color: white;
+    background-color: #1E2E54;
+    padding: 14px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+.contact-section-detalies-social a i:hover {
+    background-color: #4575F3;
+}
+
+.contact-map{
+    width: 48%;
+    height: auto;
+    border-radius: 8px;
+}
+.contact-map iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 426px) {
+    /* catalog header */
+    .catalog-header h1 {
+        font-size: 26px;
+        margin: 48px 0px;
+    }
+
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-section-detalies{
+        width: 100%;
+    }
+
+    .contact-map{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .contact-map iframe {
+        width: 100%;
+        height: 250px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .container {
+        padding: 24px 20px;
+    }
+}
